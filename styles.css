@@ -7,7 +7,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    background-color: #00283f; /* transparent */
+    background-color: transparent; /* #00283f */
     color: #ffffff;
     line-height: 1.6;
     overflow-x: hidden;
