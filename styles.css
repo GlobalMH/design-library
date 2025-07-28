@@ -95,6 +95,8 @@ body {
 }
 
 .title-line {
+    font-family: 'Hoefler Text', serif;
+    font-weight: 400;
     display: block;
 }
 
