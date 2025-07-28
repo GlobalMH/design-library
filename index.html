@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <main class="container">
+        
         <!-- Navigation Section -->
         <nav class="navigation">
             <div class="nav-buttons">
@@ -37,42 +38,49 @@
         </nav>
 
         <!-- Hero Section -->
-        <header class="hero">
+        <section class="hero">
             <div class="hero-content">
                 <div class="hero-labels">
                     <div class="subtitle">Kohrt, MD, PhD</div>
                     <div class="title">
                         <div class="title-line">Design</div>
                         <div class="title-line">Library</div>
-                    </div>
+                    </div> 
                 </div>
                 <div class="divider"></div>
                 <div class="hero-description">
                     <p class="description-main">
-                        The single source of truth for all digital materials shared between GMH staff, students, and affiliates.
+                        The GMH design library is the centralized system for all shared digital assets— components, tokens, styles, and
+                        templates— used by staff, students, and affiliates.
+                    </p>
+                    <p class="description-main">
+                        It ensures consistency, accelerates collaboration, and provides a reliable foundation for building cohesive digital 
+                        experiences across the GMH ecosystem.
                     </p>
                     <p class="description-sub">
-                        Code-friendly with HTML, CSS and React.
+                        Built with React. Served on GitHub. This library is available for use and contributions.                   
+                        </li>
+                    </ul>
                     </p>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <!-- Styles Section -->
+        <!-- Foundations Section -->
         <section class="styles-section">
             <div class="section-header">
-                <h2>Styles</h2>
+                <h2>Foundations</h2>
                 <div class="divider"></div>
                 <p class="section-description">
-                    These are the design tokens. Each item represents a variable collection.
+                    Design token collections are the styled building blocks behind every component in an organization’s design library.
                 </p>
             </div>
-            <div class="cards-grid">
+            <div class="cards-grid" id="foundations">
                 <div class="card">
                     <div class="card-image">
                         <div class="logo-placeholder">
                             <svg class="logo" viewBox="0 0 96 80" fill="none">
-                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="35" fill="#454e54"/>
                                 <circle cx="48" cy="40" r="25" fill="#366382"/>
                                 <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
                             </svg>
@@ -91,7 +99,7 @@
                     <div class="card-image">
                         <div class="logo-placeholder">
                             <svg class="logo" viewBox="0 0 96 80" fill="none">
-                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="35" fill="#454e54"/>
                                 <circle cx="48" cy="40" r="25" fill="#366382"/>
                                 <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
                             </svg>
@@ -110,7 +118,7 @@
                     <div class="card-image">
                         <div class="logo-placeholder">
                             <svg class="logo" viewBox="0 0 96 80" fill="none">
-                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="35" fill="#454e54"/>
                                 <circle cx="48" cy="40" r="25" fill="#366382"/>
                                 <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
                             </svg>
@@ -118,7 +126,7 @@
                     </div>
                     <div class="card-content">
                         <h3>Color</h3>
-                        <p>Grayscale, color palettes, and themes</p>
+                        <p>Greyscale, color palettes, and themes</p>
                     </div>
                     <div class="card-actions">
                         <button class="view-button">View</button>
@@ -129,7 +137,7 @@
                     <div class="card-image">
                         <div class="logo-placeholder">
                             <svg class="logo" viewBox="0 0 96 80" fill="none">
-                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="35" fill="#454e54"/>
                                 <circle cx="48" cy="40" r="25" fill="#366382"/>
                                 <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
                             </svg>
@@ -148,7 +156,7 @@
                     <div class="card-image">
                         <div class="logo-placeholder">
                             <svg class="logo" viewBox="0 0 96 80" fill="none">
-                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="35" fill="#454e54"/>
                                 <circle cx="48" cy="40" r="25" fill="#366382"/>
                                 <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
                             </svg>
@@ -174,7 +182,26 @@
                     In line with atomic design principles, these base components are the next level up from granular design tokens.
                 </p>
             </div>
-            <div class="cards-grid">
+            <div class="cards-grid" id="components">
+                <div class="card component-card">
+                    <div class="card-image">
+                        <div class="logo-placeholder">
+                            <svg class="logo" viewBox="0 0 96 80" fill="none">
+                                <circle cx="48" cy="40" r="35" fill="#AA9868"/>
+                                <circle cx="48" cy="40" r="25" fill="#0190DB"/>
+                                <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Avatars</h3>
+                        <p>User profiles brought to life thru headhots and logos.</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="view-button">View</button>
+                    </div>
+                </div>
+
                 <div class="card component-card">
                     <div class="card-image">
                         <div class="logo-placeholder">
@@ -252,7 +279,117 @@
                 </div>
             </div>
         </section>
-    </div>
+
+        <!-- Templates Section -->
+        <section class="templates-section">
+            <div class="section-header">
+                <h2>Templates</h2>
+                <div class="divider"></div>
+                <p class="section-description">
+                    Pre-built layout templates and content structures that combine components and styles for common use cases.
+                </p>
+            </div>
+            <div class="cards-grid" id="templates">
+                <div class="card template-card">
+                    <div class="card-image">
+                        <div class="logo-placeholder">
+                            <svg class="logo" viewBox="0 0 96 80" fill="none">
+                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="25" fill="#0190DB"/>
+                                <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Landing Pages</h3>
+                        <p>Webpage layouts for campaigns and conversions</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="view-button">View</button>
+                    </div>
+                </div>
+
+                <div class="card template-card">
+                    <div class="card-image">
+                        <div class="logo-placeholder">
+                            <svg class="logo" viewBox="0 0 96 80" fill="none">
+                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="25" fill="#0190DB"/>
+                                <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Email Templates</h3>
+                        <p>Designs for newsletters and communications</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="view-button">View</button>
+                    </div>
+                </div>
+
+                <div class="card template-card">
+                    <div class="card-image">
+                        <div class="logo-placeholder">
+                            <svg class="logo" viewBox="0 0 96 80" fill="none">
+                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="25" fill="#0190DB"/>
+                                <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Flyers</h3>
+                        <p>Printable promotions for events and announcements</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="view-button">View</button>
+                    </div>
+                </div>
+
+                <div class="card template-card">
+                    <div class="card-image">
+                        <div class="logo-placeholder">
+                            <svg class="logo" viewBox="0 0 96 80" fill="none">
+                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="25" fill="#0190DB"/>
+                                <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Blog Posts</h3>
+                        <p>Stylized articles powered by SEO content structure</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="view-button">View</button>
+                    </div>
+                </div>
+
+
+                <div class="card template-card">
+                    <div class="card-image">
+                        <div class="logo-placeholder">
+                            <svg class="logo" viewBox="0 0 96 80" fill="none">
+                                <circle cx="48" cy="40" r="35" fill="#B8C8D8"/>
+                                <circle cx="48" cy="40" r="25" fill="#0190DB"/>
+                                <circle cx="48" cy="40" r="15" fill="#F8E08E"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Social Media</h3>
+                        <p>LinkedIn and Bluesky posts optimized for engagement</p>
+                    </div>
+                    <div class="card-actions">
+                        <button class="view-button">View</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
 
     <script src="script.js"></script>
 </body>
