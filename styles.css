@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Avenir', 'Avenir Next', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    background-color: #00253B;
+    background-color: transparent; /* #00253B; */
     color: #ffffff;
     line-height: 1.5;
     overflow-x: hidden;
@@ -20,7 +20,6 @@ main {
 
 
 .container {
-    max-width: 800px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -270,29 +269,18 @@ main {
 /* Responsive Design */
 @media (max-width: 888px) {
     .title {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     
     .hero-description {
         max-width: 100%;
     }
-    
-    .description-main,
-    .description-sub {
-        font-size: 1rem;
-    }
-    
-    .card {
-        width: 100%;
-        max-width: 12rem;
-    }
+
+
 }
 
 @media (max-width: 424px) {
-    .title {
-        font-size: 5rem;
-    }
-    
+
 
     .nav-buttons {
         justify-content: center;
