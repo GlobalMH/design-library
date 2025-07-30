@@ -270,7 +270,7 @@ main {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 888px) {
     .title {
         font-size: 4rem;
     }
@@ -290,7 +290,7 @@ main {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 656px) {
     .title {
         font-size: 5rem;
     }
