@@ -22,7 +22,7 @@ main {
 .container {
     max-width: 800px;
     margin: 0 auto;
-
+    padding: 0 1rem;
 }
 
 
@@ -271,10 +271,6 @@ main {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .container {
-        padding: 0 1rem;
-    }
-    
     .title {
         font-size: 4rem;
     }
@@ -286,10 +282,6 @@ main {
     .description-main,
     .description-sub {
         font-size: 1rem;
-    }
-    
-    .cards-grid {
-        justify-content: center;
     }
     
     .card {
@@ -307,11 +299,7 @@ main {
     .nav-buttons {
         justify-content: center;
     }
-    
-    .cards-grid {
-        flex-direction: column;
-        align-items: center;
-    }
+
 }
 
 /* Accessibility */
