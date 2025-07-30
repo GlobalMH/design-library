@@ -290,7 +290,7 @@ main {
     }
 }
 
-@media (max-width: 656px) {
+@media (max-width: 424px) {
     .title {
         font-size: 5rem;
     }
