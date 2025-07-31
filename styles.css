@@ -8,6 +8,13 @@
   box-sizing: inherit;
 }
 
+iframe {
+  overflow-y: hidden;
+  /* Optional: Remove border and set display */
+  border: none;
+  display: block;
+}
+
 /* Set the root box model */
 html {
   box-sizing: border-box;
