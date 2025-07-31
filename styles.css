@@ -1,8 +1,18 @@
 /* Reset and Base Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto; /* allow vertical scroll inside if needed */
+  box-sizing: border-box;
 }
 
 body {
@@ -10,7 +20,6 @@ body {
     /* background-color:  #00253B; */
     color: #ffffff;
     line-height: 1.5;
-    overflow-x: hidden;
 }
 
 main {

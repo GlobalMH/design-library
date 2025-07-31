@@ -1,3 +1,17 @@
+// Iframe for Design System Landing Page //
+
+  function sendHeightToParent() {
+    const height = document.documentElement.scrollHeight;
+    window.parent.postMessage({ type: 'resize-iframe', height }, '*');
+  }
+
+  window.addEventListener('load', sendHeightToParent);
+  window.addEventListener('resize', sendHeightToParent);
+
+  const observer = new MutationObserver(sendHeightToParent);
+  observer.observe(document.body, { childList: true, subtree: true });
+
+
 // Design System Landing Page JavaScript
 document.addEventListener('DOMContentLoaded', function() {
     // Navigation functionality
