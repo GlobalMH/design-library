@@ -40,6 +40,7 @@ main {
 
 /* Navigation */
 .navigation {
+    display: none;
     padding: rem 0;
     margin-bottom: 2rem;
 }
