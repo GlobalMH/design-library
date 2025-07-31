@@ -13,8 +13,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: hidden; 
+
 }
 
 /* Set the root box model */
@@ -29,10 +28,9 @@ body {
 
 /* Main content */
 main {
-  min-height: 100vh;
   background-color: #00253B; /* re-enabled */
   box-sizing: border-box;
-  overflow: hidden;
+
 }
 
 .container {
