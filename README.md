@@ -1,5 +1,25 @@
 # design-library
 
+## File Structure
+
+```
+.gitignore
+DT-STACKS.md
+index.html
+README.md
+script.js
+styles.css
+│
+├── pages
+│   ├── innovations.html
+│   └── innovations.css
+│   
+├── styles
+│   ├── Mode 1.json
+│   └── variables.json
+│   
+```
+
 ## Figma Components for Easy Embedding
 
 A curated collection of Figma components ready to be embedded via iFrame in Wix and other platforms.
