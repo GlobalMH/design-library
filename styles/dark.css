@@ -1,0 +1,40 @@
+:root[data-theme="dark"] {
+  /* Primary */
+  --color-primary-background: var(--color-blue-800);
+  --color-primary-default: var(--color-blue-500);
+  --color-primary-on: var(--color-white);
+
+  /* Foreground */
+  --color-fg-default: var(--color-white);
+  --color-fg-secondary: var(--color-gray-300);
+  --color-fg-tertiary: var(--color-gray-500);
+
+  /* Background */
+  --color-bg-default: var(--color-gray-900);
+  --color-bg-secondary: var(--color-gray-700);
+  --color-bg-tertiary: var(--color-gray-600);
+
+  /* Secondary */
+  --color-secondary-default: var(--color-gold-500);
+  --color-secondary-on: var(--color-white);
+  --color-secondary-background: var(--color-gold-700);
+
+  /* Surface */
+  --color-surface-dim: var(--color-gray-900);
+  --color-surface-default: var(--color-gray-800);
+  --color-surface-bright: var(--color-gray-700);
+
+  /* Shadows & Outline */
+  --color-shadows: #00000080;
+  --color-outline: var(--color-gray-600);
+  --color-outline-variant: var(--color-gray-500);
+
+  /* Overlay */
+  --color-overlay: var(--color-white);
+
+  /* Accent */
+  --color-accent-blue: var(--color-secondary-blue);
+  --color-accent-on: var(--color-white);
+  --color-accent-yellow: var(--color-accent-yellow);
+  --color-accent-light-yellow: var(--color-secondary-yellow);
+}

@@ -1,0 +1,203 @@
+:root {
+
+  /* ||||||| GLOBAL ||||||| */
+
+  /* Text Tokens */
+  --text-token-lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  --text-token-example: "The quick brown fox jumps over the lazy dog.";
+  --text-token-alphabet: "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz";
+  --text-token-number: "0 1 2 3 4 5 6 7 8 9 ! @ £ $ % ^ & * ( ) _ +";
+  --text-token-quote: "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt";
+  --text-token-quote-author: "Franklin D. Roosevelt";
+  --text-token-quote-source: "https://www.brainyquote.com/quotes/franklin_d_roosevelt_121994";
+
+  /* Device Widths */
+  --device-width-xxl: 1400px;
+  --device-width-xl: 1200px;
+  --device-width-lg: 992px;
+  --device-width-md: 768px;
+  --device-width-sm: 576px;
+
+  /* Device Container */
+  --device-container-xxl: 1320px;
+  --device-container-xl: 1140px;
+  --device-container-lg: 960px;
+  --device-container-md: 720px;
+  --device-container-sm: 540px;
+
+  /* Device Gutter */
+  --device-gutter-xl: 40px;
+  --device-gutter-lg: 32px;
+  --device-gutter-md: 24px;
+  --device-gutter-sm: 16px;
+  --device-gutter-sm: 8px;
+
+  /* Scale */
+  --scale-0: 0;
+  --scale-050: 2px;
+  --scale-100: 4px;
+  --scale-150: 6px;
+  --scale-200: 8px;
+  --scale-300: 12px;
+  --scale-400: 16px;
+  --scale-600: 24px;
+  --scale-800: 32px;
+  --scale-1200: 48px;
+  --scale-1600: 64px;
+  --scale-2000: 92px;
+  --scale-2400: 96px;
+  --scale-4000: 160px;
+  --scale-negative-100: -4px;
+  --scale-negative-200: -8px;
+  --scale-negative-300: -12px;
+  --scale-negative-400: -16px;
+  --scale-negative-600: -24px;
+
+  /* Dimensions (resolved from scale) */
+  --dimension-xs: var(--scale-100);
+  --dimension-sm: var(--scale-200);
+  --dimension-md: var(--scale-400);
+  --dimension-lg: var(--scale-800);
+  --dimension-xl: var(--scale-1200);
+  --dimension-xxl: var(--scale-1600);
+
+  /* ||||||| COLORS ||||||| */
+
+  /* Key Colors */
+  --color-primary-blue: #033c5a;
+  --color-primary-gold: #aa9868;
+  --color-secondary-blue: #0190db;
+  --color-secondary-yellow: #f8e08e;
+  --color-accent-yellow: #ffc72c;
+  --color-accent-brown: #a65523;
+  --color-accent-green: #008264;
+  --color-success: #78be20;
+  --color-error: #c8102e;
+
+  /* Base Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  /* Gray Palette */
+  --color-gray-100: #f7fafc;
+  --color-gray-200: #edf2f7;
+  --color-gray-300: #e2e8f0;
+  --color-gray-400: #cbd5e0;
+  --color-gray-500: #a0aec0;
+  --color-gray-600: #718096;
+  --color-gray-700: #4a5568;
+  --color-gray-800: #2d3748;
+  --color-gray-900: #1a202c;
+
+  /* Blue Palette */
+  --palette-primary-blue-100: #e2edfe;
+  --palette-primary-blue-200: #c9ddf8;
+  --palette-primary-blue-300: #abceed;
+  --palette-primary-blue-400: #92bedd;
+  --palette-primary-blue-500: #5d95c0;
+  --palette-primary-blue-600: #396e93;
+  --palette-primary-blue-700: #033c5a;
+  --palette-primary-blue-800: #002940;
+  --palette-primary-blue-900: #001a29;
+
+  /* Gold Palette */
+  --palette-primary-gold-300: #fdf0c4;
+  --palette-primary-gold-400: #f8e08e;
+  --palette-primary-gold-500: #aa9868;
+  --palette-primary-gold-600: #726331;
+  --palette-primary-gold-700: #4b401b;
+  --palette-primary-gold-800: #2f2a0f;
+
+  /* ||||||| TYPOGRAPHY ||||||| */
+
+  /* Font Families */
+  --font-family-serif: 'Hoefler Text', serif;
+  --font-family-sans: 'Avenir', sans-serif;
+  --font-family-display: 'Liberator', serif;
+
+  /* Font Weights */
+  --font-weight-display-regular: 900;   /* 'Heavy' mapped to 900 */
+  --font-weight-serif-regular: 400;     /* 'Regular' mapped to 400 */
+  --font-weight-sans-regular: 400;      /* 'Regular' mapped to 400 */
+  --font-weight-sans-bold: 900;         /* 'Black' mapped to 900 */
+
+  /* Font Sizes */
+  --font-size-9xl: 128px;
+  --font-size-8xl: 96px;
+  --font-size-7xl: 72px;
+  --font-size-6xl: 60px;
+  --font-size-5xl: 48px;
+  --font-size-4xl: 36px;
+  --font-size-3xl: 30px;
+  --font-size-2xl: 24px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+
+  /* Line Heights (px values for fixed, or use font size tokens for scalable) */
+  --line-height-9xl: 128px;   /* {fontSizes.9xl} */
+  --line-height-8xl: 96px;    /* {fontSizes.8xl} */
+  --line-height-7xl: 72px;    /* {fontSizes.7xl} */
+  --line-height-6xl: 60px;    /* {fontSizes.6xl} */
+  --line-height-5xl: 48px;    /* {fontSizes.5xl} */
+  --line-height-4xl: 40px;
+  --line-height-3xl: 36px;
+  --line-height-2xl: 32px;
+  --line-height-xl: 28px;
+  --line-height-lg: 28px;
+  --line-height-base: 24px;
+  --line-height-sm: 20px;
+  --line-height-xs: 16px;
+
+  /* Letter Spacing */
+  --letter-spacing-increased: 0.15em;
+  --letter-spacing-decreased: -0.05em;
+  --letter-spacing-default: 0;
+
+  /* Paragraph Spacing */
+  --paragraph-spacing-3xl: 32px;
+  --paragraph-spacing-2xl: 26px;
+
+  /* ||||||| GEOMETRY ||||||| */
+
+  /* Padding */
+  --padding-xs: var(--dimension-xs);
+  --padding-sm: var(--dimension-sm);
+  --padding-md: var(--dimension-md);
+  --padding-lg: var(--dimension-lg);
+  --padding-xl: var(--dimension-xl);
+  --padding-xxl: var(--dimension-xxl);
+
+  /* Sizing */
+  --sizing-sm: var(--scale-400);
+  --sizing-md: var(--scale-600);
+  --sizing-lg: var(--scale-800);
+  --sizing-xl: var(--scale-1200);
+  --sizing-xxl: var(--scale-1600);
+
+  /* Border Radius */
+  --border-radius-xl: var(--dimension-md);
+  --border-radius-lg: var(--dimension-sm);
+  --border-radius-sm: var(--dimension-xs);
+  --border-radius-full: 9999px;
+
+  /* Border Width */
+  --border-width-regular: 1px;
+  --border-width-focus: 2px;
+  --border-width-device: 8px;
+
+  /* Opacity */
+  --opacity-high: 0.9;
+  --opacity-md-high: 0.75;
+  --opacity-md: 0.5;
+  --opacity-md-low: 0.25;
+  --opacity-low: 0.1;
+
+  /* box-shadow: x-offset y-offset blur spread color */
+  --elevation-0dp-box-shadow: 
+    var(--scale-100) var(--scale-100) var(--scale-100) var(--scale-100) #1a202c26, /* outer shadow */
+    var(--scale-0) var(--scale-050) var(--scale-0) var(--scale-050) #00000033 inset; /* inner shadow */
+
+}

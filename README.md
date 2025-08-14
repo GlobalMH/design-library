@@ -15,8 +15,9 @@ styles.css
 │   └── innovations.css
 │   
 ├── styles
-│   ├── Mode 1.json
-│   └── variables.json
+│   ├── dark.css
+│   ├── light.css
+│   └── vars.css
 │   
 ```
 
